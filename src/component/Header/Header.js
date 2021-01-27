@@ -8,6 +8,7 @@ import { ArrowDropDown } from "@material-ui/icons";
 import AppsIcon from "@material-ui/icons/Apps";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import { Avatar } from "@material-ui/core";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -16,6 +17,7 @@ function Header() {
         <IconButton>
           <MenuIcon />
         </IconButton>
+
         <img src={logo} alt="" />
       </div>
       <div className="header__middle">
