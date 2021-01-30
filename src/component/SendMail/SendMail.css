@@ -50,3 +50,13 @@
   border-bottom: 1px solid whitesmoke;
   outline: none;
 }
+.sendMail__message {
+  flex: 1;
+}
+
+.sendMail__error {
+  background-color: white;
+  flex: 1;
+  text-align: right;
+  color: red;
+}
